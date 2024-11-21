@@ -1,0 +1,109 @@
+
+#top {
+    height: 5vw;
+    width: 100%;
+    background-color: lightsteelblue;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#main {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.buttons {
+    width: 80px;
+height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+    color: green;
+    box-sizing: border-box;
+    position: relative;
+}
+#contan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 147, 255);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#mess, #res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#msg {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: red;
+}
+
+
+#new {
+    height: 70px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: auto;
+}
+#bottom{
+    height: 90px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.sc{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#scoreo{
+    color: red;
+}
+#scorex{
+    color: red;
+}
+#resetscore{
+    height: 70px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: auto;
+}
+
